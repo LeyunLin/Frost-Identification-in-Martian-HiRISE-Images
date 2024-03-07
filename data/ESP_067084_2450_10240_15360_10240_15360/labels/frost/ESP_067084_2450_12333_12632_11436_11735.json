@@ -1,0 +1,85 @@
+{
+  "external_id": "7sites_v04/subset/ESP_067084_2450_10240_15360_10240_15360.png",
+  "observation_id": "ESP_067084_2450",
+  "resolution": 0.5,
+  "original_resolution": 0.5,
+  "tile_bbox": "POLYGON ((1495 2093, 1495 2392, 1196 2392, 1196 2093, 1495 2093))",
+  "subframe_classifications": [
+    {
+      "labeler": "labeler_1",
+      "classification": [
+        {
+          "feature_schema_id": "ckzpw8a9g9xs60zc9d0vrfads",
+          "frost_present": "true"
+        }
+      ]
+    },
+    {
+      "labeler": "labeler_6",
+      "classification": [
+        {
+          "feature_schema_id": "ckzpw8a9g9xs60zc9d0vrfads",
+          "frost_present": "true"
+        }
+      ]
+    },
+    {
+      "labeler": "labeler_4",
+      "classification": [
+        {
+          "feature_schema_id": "ckzpw8a9g9xs60zc9d0vrfads",
+          "frost_present": "true"
+        }
+      ]
+    }
+  ],
+  "annotations": [
+    {
+      "labeler": "labeler_1",
+      "overlap_proportion": 1.0,
+      "class": "frost",
+      "feature_schema_id": "cl12i4l4g0d2k0z7r2zz12q4c",
+      "shapely": "POLYGON ((1651.67 0, 1547.67 305.833, 1563.67 801.833, 1307.67 1497.833, 1059.67 1817.833, 747.67 2129.833, 0 2425.833, 0 5120, 5120 5120, 5120 1561.833, 4763.67 0, 1651.67 0))",
+      "frost_context": [
+        "polygonal_cracks",
+        "uniform_albedo"
+      ],
+      "frost_type": "unknown_type",
+      "confidence": "low_50_69",
+      "geologic_context": "other"
+    },
+    {
+      "labeler": "labeler_6",
+      "overlap_proportion": 1.0,
+      "class": "frost",
+      "feature_schema_id": "cl12i4l4g0d2k0z7r2zz12q4c",
+      "shapely": "POLYGON ((1654.437 0, 1622.178 179.73, 1562.268 267.291, 1562.268 460.846, 1511.575 612.925, 1543.834 769.613, 1447.057 1101.422, 1327.237 1271.935, 1258.11 1539.226, 870.999 1967.813, 18.434 2354.923, 0 5110.783, 5120 5115.392, 5115.392 1571.485, 4802.016 0, 1654.437 0))",
+      "frost_context": [
+        "uniform_albedo"
+      ],
+      "frost_type": "unknown_type",
+      "confidence": "high_90",
+      "geologic_context": "dune"
+    },
+    {
+      "labeler": "labeler_4",
+      "overlap_proportion": 1.0,
+      "class": "frost",
+      "feature_schema_id": "cl12i4l4g0d2k0z7r2zz12q4c",
+      "shapely": "POLYGON ((4.26 5111.481, 1064.892 5120, 1073.411 4472.546, 1209.717 3876.206, 1550.483 3940.1, 1712.346 3599.334, 1597.338 3152.08, 2010.516 3169.118, 1916.805 2755.94, 2611.115 2534.443, 2564.26 1818.835, 2261.83 1409.917, 2815.574 1448.253, 2594.077 511.149, 2632.413 140.566, 4864.426 195.94, 4821.83 4.26, 1686.789 0, 1571.78 979.7, 1098.968 1674.01, 302.429 2257.571, 0 2329.983, 4.26 5111.481))",
+      "frost_context": [
+        "uniform_albedo"
+      ],
+      "frost_type": "unknown_type",
+      "confidence": "medium_70_89",
+      "geologic_context": "other"
+    }
+  ],
+  "class": "frost",
+  "image_coords": [
+    12333,
+    12632,
+    11436,
+    11735
+  ]
+}

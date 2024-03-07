@@ -1,0 +1,83 @@
+{
+  "external_id": "7sites_v04/subset/ESP_065389_2400_0_5120_10240_15360.png",
+  "observation_id": "ESP_065389_2400",
+  "resolution": 0.5,
+  "original_resolution": 0.5,
+  "tile_bbox": "POLYGON ((2392 4784, 2392 5083, 2093 5083, 2093 4784, 2392 4784))",
+  "subframe_classifications": [
+    {
+      "labeler": "labeler_1",
+      "classification": [
+        {
+          "feature_schema_id": "ckzpw8a9g9xs60zc9d0vrfads",
+          "frost_present": "true"
+        }
+      ]
+    },
+    {
+      "labeler": "labeler_6",
+      "classification": [
+        {
+          "feature_schema_id": "ckzpw8a9g9xs60zc9d0vrfads",
+          "frost_present": "true"
+        }
+      ]
+    },
+    {
+      "labeler": "labeler_4",
+      "classification": [
+        {
+          "feature_schema_id": "ckzpw8a9g9xs60zc9d0vrfads",
+          "frost_present": "false"
+        },
+        {
+          "feature_schema_id": "ckzpw8a9g9xsa0zc9bdslemfl",
+          "confidence": "low"
+        }
+      ]
+    }
+  ],
+  "annotations": [
+    {
+      "labeler": "labeler_1",
+      "overlap_proportion": 1.0,
+      "class": "frost",
+      "feature_schema_id": "cl12i4l4g0d2k0z7r2zz12q4c",
+      "shapely": "POLYGON ((0 403.345, 2665.263 43.345, 3537.263 5120, 0 5120, 0 403.345))",
+      "frost_context": [
+        "polygonal_cracks",
+        "uniform_albedo"
+      ],
+      "frost_type": "unknown_type",
+      "confidence": "low_50_69",
+      "visibility_issues": [
+        "image_artifact",
+        "low_snr"
+      ],
+      "geologic_context": "other"
+    },
+    {
+      "labeler": "labeler_6",
+      "overlap_proportion": 1.0,
+      "class": "frost",
+      "feature_schema_id": "cl12i4l4g0d2k0z7r2zz12q4c",
+      "shapely": "POLYGON ((0 380.654, 2704.314 16.732, 3549.281 5120, 6.275 5120, 0 380.654))",
+      "frost_context": [
+        "uniform_albedo"
+      ],
+      "frost_type": "unknown_type",
+      "confidence": "low_50_69",
+      "visibility_issues": [
+        "low_snr"
+      ],
+      "geologic_context": "other"
+    }
+  ],
+  "class": "frost",
+  "image_coords": [
+    4784,
+    5083,
+    12333,
+    12632
+  ]
+}

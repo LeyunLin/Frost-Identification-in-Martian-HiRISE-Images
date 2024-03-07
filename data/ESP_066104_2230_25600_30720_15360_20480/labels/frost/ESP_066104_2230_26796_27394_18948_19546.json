@@ -1,0 +1,83 @@
+{
+  "external_id": "7sites_v04/subset/ESP_066104_2230_25600_30720_15360_20480.png",
+  "observation_id": "ESP_066104_2230",
+  "resolution": 0.5,
+  "original_resolution": 0.25,
+  "tile_bbox": "POLYGON ((4186 1196, 4186 1794, 3588 1794, 3588 1196, 4186 1196))",
+  "subframe_classifications": [
+    {
+      "labeler": "labeler_1",
+      "classification": [
+        {
+          "feature_schema_id": "ckzpw8a9g9xs60zc9d0vrfads",
+          "frost_present": "true"
+        }
+      ]
+    },
+    {
+      "labeler": "labeler_6",
+      "classification": [
+        {
+          "feature_schema_id": "ckzpw8a9g9xs60zc9d0vrfads",
+          "frost_present": "true"
+        }
+      ]
+    },
+    {
+      "labeler": "labeler_4",
+      "classification": [
+        {
+          "feature_schema_id": "ckzpw8a9g9xs60zc9d0vrfads",
+          "frost_present": "false"
+        },
+        {
+          "feature_schema_id": "ckzpw8a9g9xsa0zc9bdslemfl",
+          "confidence": "low"
+        }
+      ]
+    }
+  ],
+  "annotations": [
+    {
+      "labeler": "labeler_1",
+      "overlap_proportion": 1.0,
+      "class": "frost",
+      "feature_schema_id": "cl12i4l4g0d2k0z7r2zz12q4c",
+      "shapely": "POLYGON ((0 0, 5120 0, 5120 5120, 0 5120, 0 0))",
+      "frost_context": [
+        "uniform_albedo"
+      ],
+      "frost_type": "unknown_type",
+      "confidence": "low_50_69",
+      "visibility_issues": [
+        "image_artifact",
+        "low_snr"
+      ],
+      "geologic_context": "dune"
+    },
+    {
+      "labeler": "labeler_6",
+      "overlap_proportion": 1.0,
+      "class": "frost",
+      "feature_schema_id": "cl12i4l4g0d2k0z7r2zz12q4c",
+      "shapely": "POLYGON ((6.275 4.183, 2.092 5120, 5117.908 5111.634, 5109.542 0, 6.275 4.183))",
+      "frost_context": [
+        "defrosting_marks"
+      ],
+      "frost_type": "unknown_type",
+      "confidence": "high_90",
+      "visibility_issues": [
+        "image_artifact",
+        "low_snr"
+      ],
+      "geologic_context": "dune"
+    }
+  ],
+  "class": "frost",
+  "image_coords": [
+    26796,
+    27394,
+    18948,
+    19546
+  ]
+}

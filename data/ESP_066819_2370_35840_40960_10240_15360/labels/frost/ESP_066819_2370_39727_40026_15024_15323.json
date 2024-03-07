@@ -1,0 +1,81 @@
+{
+  "external_id": "7sites_v04/subset/ESP_066819_2370_35840_40960_10240_15360.png",
+  "observation_id": "ESP_066819_2370",
+  "resolution": 0.5,
+  "original_resolution": 0.5,
+  "tile_bbox": "POLYGON ((5083 3887, 5083 4186, 4784 4186, 4784 3887, 5083 3887))",
+  "subframe_classifications": [
+    {
+      "labeler": "labeler_1",
+      "classification": [
+        {
+          "feature_schema_id": "ckzpw8a9g9xs60zc9d0vrfads",
+          "frost_present": "true"
+        }
+      ]
+    },
+    {
+      "labeler": "labeler_6",
+      "classification": [
+        {
+          "feature_schema_id": "ckzpw8a9g9xs60zc9d0vrfads",
+          "frost_present": "true"
+        }
+      ]
+    },
+    {
+      "labeler": "labeler_4",
+      "classification": [
+        {
+          "feature_schema_id": "ckzpw8a9g9xs60zc9d0vrfads",
+          "frost_present": "false"
+        },
+        {
+          "feature_schema_id": "ckzpw8a9g9xsa0zc9bdslemfl",
+          "confidence": "low"
+        }
+      ]
+    }
+  ],
+  "annotations": [
+    {
+      "labeler": "labeler_1",
+      "overlap_proportion": 1.0,
+      "class": "frost",
+      "feature_schema_id": "cl12i4l4g0d2k0z7r2zz12q4c",
+      "shapely": "POLYGON ((5120 2859.296, 4168 3355.847, 4457.656 3731.709, 4333.518 4007.572, 3933.518 4024.813, 3516.276 4452.399, 3016.276 5120, 5120 5120, 5120 2859.296))",
+      "frost_context": [
+        "uniform_albedo"
+      ],
+      "frost_type": "unknown_type",
+      "confidence": "low_50_69",
+      "visibility_issues": [
+        "cloudy_hazy"
+      ],
+      "geologic_context": "other"
+    },
+    {
+      "labeler": "labeler_6",
+      "overlap_proportion": 1.0,
+      "class": "frost",
+      "feature_schema_id": "cl12i4l4g0d2k0z7r2zz12q4c",
+      "shapely": "POLYGON ((2.092 0, 0 5120, 5120 5107.451, 5117.908 0, 2.092 0))",
+      "frost_context": [
+        "uniform_albedo"
+      ],
+      "frost_type": "unknown_type",
+      "confidence": "low_50_69",
+      "visibility_issues": [
+        "cloudy_hazy"
+      ],
+      "geologic_context": "other"
+    }
+  ],
+  "class": "frost",
+  "image_coords": [
+    39727,
+    40026,
+    15024,
+    15323
+  ]
+}
