@@ -1,0 +1,77 @@
+{
+  "external_id": "7sites_v04/subset/ESP_059277_2450_25600_30720_10240_15360.png",
+  "observation_id": "ESP_059277_2450",
+  "resolution": 0.5,
+  "original_resolution": 0.5,
+  "tile_bbox": "POLYGON ((5083 4485, 5083 4784, 4784 4784, 4784 4485, 5083 4485))",
+  "subframe_classifications": [
+    {
+      "labeler": "labeler_1",
+      "classification": [
+        {
+          "feature_schema_id": "ckzpw8a9g9xs60zc9d0vrfads",
+          "frost_present": "true"
+        }
+      ]
+    },
+    {
+      "labeler": "labeler_6",
+      "classification": [
+        {
+          "feature_schema_id": "ckzpw8a9g9xs60zc9d0vrfads",
+          "frost_present": "true"
+        }
+      ]
+    },
+    {
+      "labeler": "labeler_4",
+      "classification": [
+        {
+          "feature_schema_id": "ckzpw8a9g9xs60zc9d0vrfads",
+          "frost_present": "true"
+        }
+      ]
+    }
+  ],
+  "annotations": [
+    {
+      "labeler": "labeler_1",
+      "overlap_proportion": 1.0,
+      "class": "frost",
+      "feature_schema_id": "cl12i4l4g0d2k0z7r2zz12q4c",
+      "shapely": "POLYGON ((5120 4204.274, 4327.749 4667.911, 2973.204 5120, 5120 5120, 5120 4204.274))",
+      "frost_context": [
+        "uniform_albedo"
+      ],
+      "frost_type": "unknown_type",
+      "confidence": "low_50_69",
+      "visibility_issues": [
+        "image_artifact"
+      ],
+      "geologic_context": "other"
+    },
+    {
+      "labeler": "labeler_6",
+      "overlap_proportion": 1.0,
+      "class": "frost",
+      "feature_schema_id": "cl12i4l4g0d2k0z7r2zz12q4c",
+      "shapely": "POLYGON ((5113.725 4040.784, 4816.732 4174.641, 4691.242 4329.412, 4494.641 4450.719, 4272.941 4526.013, 4097.255 4597.124, 3975.948 4601.307, 3871.373 4647.32, 3758.431 4789.542, 3394.51 4873.203, 3018.039 4986.144, 2708.497 4990.327, 2265.098 4961.046, 1917.908 4961.046, 1579.085 5120, 5120 5120, 5113.725 4040.784))",
+      "frost_context": [
+        "uniform_albedo"
+      ],
+      "frost_type": "unknown_type",
+      "confidence": "medium_70_89",
+      "visibility_issues": [
+        "image_artifact"
+      ],
+      "geologic_context": "crater_rim_wall"
+    }
+  ],
+  "class": "frost",
+  "image_coords": [
+    30085,
+    30384,
+    15024,
+    15323
+  ]
+}

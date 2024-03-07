@@ -1,0 +1,74 @@
+{
+  "external_id": "7sites_v04/subset/ESP_058710_2450_30720_35840_5120_10240.png",
+  "observation_id": "ESP_058710_2450",
+  "resolution": 0.5,
+  "original_resolution": 0.5,
+  "tile_bbox": "POLYGON ((5083 3588, 5083 3887, 4784 3887, 4784 3588, 5083 3588))",
+  "subframe_classifications": [
+    {
+      "labeler": "labeler_1",
+      "classification": [
+        {
+          "feature_schema_id": "ckzpw8a9g9xs60zc9d0vrfads",
+          "frost_present": "true"
+        }
+      ]
+    },
+    {
+      "labeler": "labeler_6",
+      "classification": [
+        {
+          "feature_schema_id": "ckzpw8a9g9xs60zc9d0vrfads",
+          "frost_present": "true"
+        }
+      ]
+    },
+    {
+      "labeler": "labeler_4",
+      "classification": [
+        {
+          "feature_schema_id": "ckzpw8a9g9xs60zc9d0vrfads",
+          "frost_present": "true"
+        }
+      ]
+    }
+  ],
+  "annotations": [
+    {
+      "labeler": "labeler_1",
+      "overlap_proportion": 1.0,
+      "class": "frost",
+      "feature_schema_id": "cl12i4l4g0d2k0z7r2zz12q4c",
+      "shapely": "POLYGON ((734.394 3141.959, 972.325 2897.131, 1517.153 2752.304, 2086.118 2293.683, 2041.291 2576.442, 2103.36 3069.545, 2575.773 3293.683, 3320.601 2755.752, 3103.36 3252.304, 3672.325 3393.683, 3734.394 3897.131, 3820.601 3914.373, 4493.015 3552.304, 4575.773 3100.58, 4475.773 2579.89, 4510.256 2486.787, 4865.429 2493.683, 4734.394 2835.062, 4834.394 3121.269, 5120 3328.166, 5120 4871.476, 3750.946 4403.476, 3222.946 4419.476, 1882.946 4131.476, 1430.946 4163.476, 818.946 3611.476, 734.394 3141.959))",
+      "frost_context": [
+        "uniform_albedo"
+      ],
+      "frost_type": "unknown_type",
+      "confidence": "medium_70_89",
+      "visibility_issues": [
+        "image_artifact"
+      ],
+      "geologic_context": "crater_rim_wall"
+    },
+    {
+      "labeler": "labeler_6",
+      "overlap_proportion": 1.0,
+      "class": "frost",
+      "feature_schema_id": "cl12i4l4g0d2k0z7r2zz12q4c",
+      "shapely": "POLYGON ((131.765 4.183, 1098.039 5115.817, 5096.993 5103.268, 5120 0, 131.765 4.183))",
+      "frost_context": [
+        "uniform_albedo"
+      ],
+      "frost_type": "unknown_type",
+      "confidence": "low_50_69",
+      "geologic_context": "crater_rim_wall"
+    }
+  ],
+  "class": "frost",
+  "image_coords": [
+    34308,
+    34607,
+    9904,
+    10203
+  ]
+}
